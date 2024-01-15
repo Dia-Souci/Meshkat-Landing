@@ -1,0 +1,45 @@
+.lineLinks{
+    margin: 30px 0; 
+}
+
+.lineLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.linebreak{
+    height: 2px;
+    width:100%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+.content-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.content-link-title{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 131.25% */
+}
+.check-container-content{
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.all-checks-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}

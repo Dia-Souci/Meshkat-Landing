@@ -1,0 +1,45 @@
+.feature-container{
+    background-image: url("../../imgs/room-interior-architecture-space-indoor-concept\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-container-titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    padding: 50px 0px 100px;
+    
+}
+.feature-container-titles > h1{
+    color: #1D2027;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 66px */
+}
+.feature-container-titles > p{
+    color: #1D2027;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+}
+.grid-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
